@@ -1,0 +1,1 @@
+var D19=require('node-windows').Service;var B19=new D19({name:"IVM",description:"Invoice Management by SOKHA",script:require('path').join(__dirname,'index.js')})B19.on('uninstall',function(){console.log('Uninstall complete.');console.log('The service exists: ',B19.exists);})B19.uninstall();

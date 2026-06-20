@@ -1,0 +1,1 @@
+node %~dp0resetCon.js
