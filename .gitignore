@@ -1,0 +1,8 @@
+admin_script/
+my_script/
+node_modules/
+public/img/
+backup/
+data/
+upload/
+sets.json
